@@ -1,0 +1,8 @@
+file: Force_Input, stream,
+	name, "Force_Input",
+  create, yes,
+  port, 9000,
+  receive first, no,
+  3;
+
+/*binary input: if = 1 force is applied, otherwise no force is applied*/
